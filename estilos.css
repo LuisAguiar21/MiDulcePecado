@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #ffffff;
+    background: radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent) 10px 10px, linear-gradient(#ffc1d5 0.8px, transparent 0.8px) 0 -0.4px, linear-gradient(90deg, #ffc1d5 0.8px, #ffffff 0.8px) -0.4px 0;
+    background-size: 20px 20px, 20px 20px, 10px 10px, 10px 10px;
+}
+
+/* Navegación*/
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+#titulo {
+    float: left;
+    font-weight: 900;
+    font-size: 33px;
+    margin-top: 4px;
+    margin-left: 15px;
+    color: #fa8fb1;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    border-bottom: 2px solid #fa8fb1;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: #fa8fb1;
+    font-weight: 600;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid #fa8fb1;
+    border-left: 2px solid #fa8fb1;
+  }
+  
+  li a:hover {
+    background-color: #fa8fb1;
+    color: white;
+  }
+
+/* portada */
+
+.separador-sabor {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+
+hr {
+    color: black;
+    background-color: black;
+    width: 85%;
+    height: 1px;
+    margin-left: 90px;
+}
