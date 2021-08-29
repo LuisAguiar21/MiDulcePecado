@@ -26,7 +26,7 @@ header {
     color: #fa8fb1;
 }
 
-ul {
+#navegación {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -35,11 +35,11 @@ ul {
     border-bottom: 2px solid #fa8fb1;
   }
   
-  li {
+ .navegación {
     float: right;
   }
   
-  li a {
+  .navegación a {
     display: block;
     color: #fa8fb1;
     font-weight: 600;
@@ -54,7 +54,7 @@ ul {
     border-left: 1px solid #fa8fb1;
   }
 
-  li a:hover {
+  .navegación a:hover {
     background-color: #fa8fb1;
     color: white;
   }
@@ -93,7 +93,7 @@ ul {
 h2 {
     text-align: center;
     font-size: 35px;
-    margin-top: 25px;
+    margin-top: 50px;
 }
 
 .producto {
@@ -142,9 +142,9 @@ h2 {
 }
 
 .separador {
-    height: 1px;
+    height: 2px;
     width: 90%;
-    background-color: black;
+    background-color: #fa8fb1;
     margin-left: 65px;
 }
 
@@ -152,8 +152,73 @@ h2 {
     margin-top: 440px;
 }
 
+/* Sabores */
+
+.sabores {
+    overflow: hidden;
+    width: 170px;
+    height: 400px;
+    text-align: center;
+    float: left;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+.sabores > h2 {
+    font-size: 20px;
+}
+
 .separador-sabor {
-    height: 50px;
-    width: 50px;
-    background-color: black;
+    height: 400px;
+    width: 2px;
+    background-color: #fa8fb1;
+    float: left;
+    margin-left: 93px;
+    margin-right: 93px;
+    margin-top: 30px;
+}
+
+.lista {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+#texto-postres {
+    text-align: center;
+    margin-top: 475px;
+}
+
+#texto-postres > h3 {
+    font-size: 25px;
+}
+
+#texto-postres > p {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 60px;
+}
+
+/* Locación */
+
+#locación > img {
+    width: 600px;
+    height: 399.99px;
+    margin-top: 60px;
+    margin-left: 325px;
+}
+
+.loc-txt {
+    text-align: center;
+}
+
+#locación > h4 {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#locación > p {
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 10px;
 }
