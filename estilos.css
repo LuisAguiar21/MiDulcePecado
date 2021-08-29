@@ -231,33 +231,31 @@ h2 {
     margin-top: 30px;
 }
 
-.iconos {
+.contenedor-iconos {
     font-size: 20px;
+    display: flex;
+    margin-left: 425px;
+    margin-bottom: 30px;
+}
+
+.iconos {
+    width: 40px;
+    height: 40px;
+    border: #fa8fb1 solid 2px;
+    border-radius: 100%;
+    text-align: center;
     margin-top: 20px;
-    margin-left: 530px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #fa8fb1;
 }
 
-#telefono {
-    margin-left: 10px;
-    margin-right: 10px;
+.iconos > i {
+    margin-top: 8px;
 }
 
-#ig {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-#whatsapp {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-#envelope {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-#fb {
-    margin-left: 10px;
-    margin-right: 10px;
+.iconos:hover {
+    border: #fa8fb1 solid 2px;
+    background-color: #fa8fb1;
+    color: white;
 }
