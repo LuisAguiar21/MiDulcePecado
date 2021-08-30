@@ -147,7 +147,7 @@
     <div id="contacto">
         <h4>Nuestra información de contacto:</h4>
         <div class="contenedor-iconos">
-            <a href="#" class="iconos">
+            <a onclick="Teléfono()" class="iconos">
                 <i class='fas fa-phone' id="telefono"></i>
             </a>
             <a href="https://www.instagram.com/" class="iconos">
@@ -156,7 +156,7 @@
             <a href="https://www.whatsapp.com/?lang=es" class="iconos">
                 <i class='fab fa-whatsapp' id="whatsapp"></i>
             </a>
-            <a href="#" class="iconos">
+            <a onclick="Correo()" class="iconos">
                 <i class="fa fa-envelope" id="envelope"></i>
             </a>
             <a href="https://es-la.facebook.com/" class="iconos">
@@ -164,5 +164,15 @@
             </a>
         </div>
     </div>
+    
+    <script>
+        function Teléfono() {
+            alert("Nuestro número de teléfono es 631 152 6984");
+        }
+
+        function Correo() {
+            alert("Nuestro correo electrónico es midulce_pecado@gmail.com");
+        }
+    </script>
 </body>
 </html>
