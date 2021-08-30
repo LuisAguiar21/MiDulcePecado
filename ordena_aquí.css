@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+    background: radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent) 10px 10px, linear-gradient(#ffc1d5 0.8px, transparent 0.8px) 0 -0.4px, linear-gradient(90deg, #ffc1d5 0.8px, #ffffff 0.8px) -0.4px 0;
+    background-size: 20px 20px, 20px 20px, 10px 10px, 10px 10px;
+}
+
+.contenedor {
+    width: 375px;
+    padding: 50px;
+    background-color: white;
+    color: #fc6998;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 6px rgba(0,0,0,0.19);
+    -webkit-box-shadow: 0px 0px 20px 6px rgba(0,0,0,0.19);
+    -moz-box-shadow: 0px 0px 20px 6px rgba(0,0,0,0.19);
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    width: 100%;
+    margin-bottom: 10px;
+    color: rgb(43, 43, 43);
+    padding: 10px;
+    border: 2px solid #fdcfde;
+    font-size: 12px;
+}
+
+a {
+    padding: 10px;
+    width: 100%;
+    background-color: #fc6998;
+    color: white;
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+}
