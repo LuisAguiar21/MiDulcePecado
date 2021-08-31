@@ -13,7 +13,7 @@
     -moz-box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.2);
     top: 280%;
     left: 25.7%;
-    opacity: 0%;
+    opacity: 100%;
 }
 
 .ventana-abierta {
@@ -59,32 +59,136 @@
     margin-top: 10px;
 }
 
-/* Ventana del correo*/
+@media screen and (max-width: 1024px) {
 
-
-#cerrar-2 {
-    margin-left: 560px;
-    margin-top: 20px;
-    font-size: 20px;
+    .ventana-abierta {
+        width: 600px;
+        height: 250px;
+        top: 330%;
+        left: 22%;
+    }
 }
 
-#correo-i {
-    font-size: 75px;
-    margin: auto;
-    text-align: center;
-    margin-left: 270px;
-    margin-top: 20px;
+@media screen and (max-width: 768px) {
+
+    .ventana-abierta {
+        width: 500px;
+        height: 208.33px;
+        top: 560%;
+        left: 19%;
+    }
+
+    #cerrar-1 {
+        margin-left: 460px;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    
+    #teléfono-i {
+        font-size: 65px;
+        margin: auto;
+        text-align: center;
+        margin-left: 220px;
+        margin-top: 10px;
+    }
+    
+    .ventana > h3 {
+        font-weight: 800;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .ventana > p {
+        text-align: center;
+        font-weight: 600;
+        margin-top: 10px;
+    }
 }
 
-.ventana > h3 {
-    font-weight: 800;
-    font-size: 30px;
-    text-align: center;
-    margin-top: 20px;
+@media screen and (max-width: 425px) {
+
+    .ventana-abierta {
+        width: 300px;
+        height: 125px;
+        top: 470%;
+        left: 15%;
+    }
+
+    #cerrar-1 {
+        margin-left: 275px;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    
+    #teléfono-i {
+        font-size: 45px;
+        margin: auto;
+        text-align: center;
+        margin-left: 130px;
+        margin-top: 5px;
+    }
+    
+    .ventana > h3 {
+        font-weight: 800;
+        font-size: 12px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .ventana > p {
+        text-align: center;
+        font-weight: 600;
+        font-size: 10px;
+        margin-top: 5px;
+    }
 }
 
-.ventana > p {
-    text-align: center;
-    font-weight: 600;
-    margin-top: 10px;
+@media screen and (max-width: 375px) {
+
+    .ventana-abierta {
+        width: 300px;
+        height: 125px;
+        top: 470%;
+        left: 10%;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .ventana-abierta {
+        width: 280px;
+        height: 116.66px;
+        top: 385%;
+        left: 6%;
+    }
+
+    #cerrar-1 {
+        margin-left: 255px;
+        margin-top: 15px;
+        font-size: 10px;
+    }
+    
+    #teléfono-i {
+        font-size: 45px;
+        margin: auto;
+        text-align: center;
+        margin-left: 120px;
+        margin-top: 0px;
+    }
+    
+    .ventana > h3 {
+        font-weight: 800;
+        font-size: 10px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .ventana > p {
+        text-align: center;
+        font-weight: 600;
+        font-size: 8px;
+        margin-top: 3px;
+    }
 }
