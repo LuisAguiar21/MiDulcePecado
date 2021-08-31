@@ -9,9 +9,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="ventanas.css">
     <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <!-- Barra de navegación -->
+
     <header>
         <nav>
             <ul id="navegación">
@@ -27,11 +34,15 @@
         </nav>
     </header>
 
+    <!-- Portada -->
+
     <div id="portada">
         <h1 id="titulo-portada" class="textos">¿Buscas un perfecto pastel para cualquier ocasión?</h1>
         <p id="texto-portada" class="textos">Has venido al lugar correcto</p>
         <img src="img/birthday-2338813_1920.jpg" alt="pastel-portada">
     </div>
+
+    <!-- Productos -->
 
     <div id="productos">
         <h2>Nuestras especialidades</h2>
@@ -66,6 +77,9 @@
             </div>
         </div>
     </div>
+
+    <!-- Sabores -->
+
     <div class="separador" id="separador-especialidades"></div>
     <div id="sabores">
         <h2>Contamos con una gran variedad de sabores en</h2>
@@ -144,10 +158,13 @@
             CP. 84090 Nogales, Sonora
         </p>
     </div>
+
+    <!-- Información de contacto -->
+
     <div id="contacto">
         <h4>Nuestra información de contacto:</h4>
         <div class="contenedor-iconos">
-            <a onclick="Teléfono()" class="iconos">
+            <a onclick="Teléfono()" class="iconos" id="botón-teléfono">
                 <i class='fas fa-phone' id="teléfono"></i>
             </a>
             <a href="https://www.instagram.com/" class="iconos">
@@ -156,23 +173,21 @@
             <a href="https://www.whatsapp.com/?lang=es" class="iconos">
                 <i class='fab fa-whatsapp' id="whatsapp"></i>
             </a>
-            <a onclick="Correo()" class="iconos">
-                <i class="fa fa-envelope" id="envelope"></i>
-            </a>
             <a href="https://es-la.facebook.com/" class="iconos">
                 <i class='fab fa-facebook-f' id="fb"></i>
             </a>
         </div>
+
+        <!-- Ventanas Emergentes -->
+
+        <div class="ventana" id="teléfono-ventana">
+            <i class='far fa-window-close' id="cerrar-1"></i>
+            <i class='fas fa-phone' id="teléfono-i"></i>
+            <h3>Nuestro número de teléfono es</h3>
+            <p>631 152 6984</p>
+        </div>
     </div>
     
-    <script>
-        function Teléfono() {
-            alert("Nuestro número de teléfono es 631 152 6984");
-        }
-
-        function Correo() {
-            alert("Nuestro correo electrónico es midulce_pecado@gmail.com");
-        }
-    </script>
+    <script src="ventanas.js"></script>
 </body>
 </html>
